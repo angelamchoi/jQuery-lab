@@ -1,0 +1,52 @@
+body {
+    font-size: 18px;
+    color: orange;
+    font-family: 'Helvetica';
+    margin-left: 28%;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+p{
+    text-transform: uppercase;
+    width: 400px;
+    height: 30px;
+    background-color: darkseagreen;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+input {
+    border-color: darkseagreen;
+    width: 300px;
+    height: 28px;
+    border-width: medium 2px;
+}
+
+button {
+    border-color: darkseagreen;
+    border-width: medium 2px;
+    color: darkseagreen;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    padding: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    transition: ease-in 0.5s; 
+    background-color: goldenrod;
+    color: white;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+li i {
+    color: lightcoral;
+}
